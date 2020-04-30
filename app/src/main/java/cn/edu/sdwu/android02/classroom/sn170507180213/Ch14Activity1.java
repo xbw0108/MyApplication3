@@ -55,7 +55,7 @@ public class Ch14Activity1 extends AppCompatActivity {
                 int id= cursor.getInt(cursor.getColumnIndex("id"));
                 String stuname=cursor.getString(cursor.getColumnIndex("stuname"));
                 String stutel=cursor.getString(cursor.getColumnIndex("stutel"));
-                Log.i(Ch14Activity1.class.toString(),"id:"+id ,"stuname:"+stuname ,"stutel:"+stutel);
+                Log.i(Ch14Activity1.class.toString(),"id:"+id+ "stuname:"+stuname+ "stutel:"+stutel);
             }
         }catch (Exception e){
             Log.e(Ch14Activity1.class.toString(),toString());
